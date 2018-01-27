@@ -1,0 +1,38 @@
+{{>header}}
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8">
+			<div class="panel panel-default">
+				<div class="panel-body">
+
+					<h3 class="post-title">Lorem ipsum dolor sit amet</h3>
+					<div class="post-meta list-inline">
+						<li>15 Feb 2017</li>
+						<li>test, demo</li>
+						<li><a href="{post-permalink}">Permalink</a></li>
+					</div>
+					<div class="post-content">
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi accusantium inventore officiis dolorum pariatur, molestias, molestiae explicabo, reiciendis obcaecati voluptatum perspiciatis quam provident numquam rem eos nesciunt quod veniam?
+							Earum.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi accusantium inventore officiis dolorum pariatur, molestias, molestiae explicabo, reiciendis obcaecati voluptatum perspiciatis quam provident numquam rem eos nesciunt quod veniam?
+							Earum.</p>
+						<div class="thumbnail">
+							<img src="http://lorempixel.com/500/250" />
+						</div>
+						<div class="embed-responsive embed-responsive-16by9 thumbnail">
+							<iframe class="embed-responsive-item" src="//www.youtube.com/embed/GIi8jsZLoNo"></iframe>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi accusantium inventore officiis dolorum pariatur, molestias, molestiae explicabo, reiciendis obcaecati voluptatum perspiciatis quam provident numquam rem eos nesciunt quod veniam?
+							Earum.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi accusantium inventore officiis dolorum pariatur, molestias, molestiae explicabo, reiciendis obcaecati voluptatum perspiciatis quam provident numquam rem eos nesciunt quod veniam?
+							Earum.</p>
+							
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+{{>footer}}

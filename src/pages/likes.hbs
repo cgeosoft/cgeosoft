@@ -1,0 +1,50 @@
+<div class="d-flex justify-content-center">
+	<div class='content-blog m-4 p-4'>
+		<section class="header d-flex justify-content-start flex-row">
+			<div>
+				<h1 class="display-4 title-name">Christos Georgiou</h1>
+				<h2 class="lead mb-4">
+					Likes
+					<span class="fa fa-thumbs-o-up"></span>
+				</h2>
+			</div>
+			<div class="ml-auto d-flex align-items-end">
+				<div class="input-group">
+					<span class="input-group-addon">
+						<span class="fa fa-search"></span>
+					</span>
+					<input type="text" class="form-control" placeholder="filter" aria-label="filter">
+				</div>
+			</div>
+		</section>
+		<section class="blog">
+			<div class="list-group">
+				{{#each items}} {{#if _show}}
+				<div class="list-group-item">
+					<div class="media">
+						<div class="flex-column align-items-start mr-3" style="width:150px">
+							<a href="{{link}}" target="_blank">
+								<img class="img-thumbnail" src="{{img}}" alt="image of {{title}}">
+							</a>
+							<hr class="mt-2 mb-2" /> {{#each links}}
+							<a href="{{url}}" target="_bank" class="btn btn-sm btn-outline-secondary btn-block">{{label}}</a>
+							{{/each}}
+						</div>
+						<div class="media-body flex-column align-items-start mb-auto">
+							<div class="d-flex w-100 justify-content-between">
+								<h5 class="mb-1">{{title}}</h5>
+								<small class="text-secondary">{{date}}</small>
+							</div>
+							{{#each tags}}
+							<small class="badge badge-secondary">{{this}}</small>
+							{{/each}}
+							<hr class="mt-2 mb-2"> {{#each desc}}
+							<p>{{this}}</p>{{/each}}
+						</div>
+					</div>
+				</div>
+				{{/if}} {{/each}}
+			</div>
+		</section>
+	</div>
+</div>

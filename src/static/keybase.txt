@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/georgiou
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://cgeosoft.com
+  * I am georgiou (https://keybase.io/georgiou) on keybase.
+  * I have a public key ASAO-eW6PIuqktn3DnMuWFzCjBP1z3NhUK9RuZKI9GXHZgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101494b759ce7cb6f8efea70902fa212adb5e1b9155c378c5fdb74f22dfd02a78b80a",
+      "host": "keybase.io",
+      "kid": "01200ef9e5ba3c8baa92d9f70e732e585cc28c13f5cf736150af51b99288f465c7660a",
+      "uid": "78734d8e9adbc6d50f813d861039f519",
+      "username": "georgiou"
+    },
+    "merkle_root": {
+      "ctime": 1507155524,
+      "hash": "e7283a636ce3dda67ea754bd61c419d6381c5990c07b4c38d7e321db7438847092d7c64c50d34856117b2d857098c4a81c5bcf55c55144b2d57adc7eff33ade4",
+      "hash_meta": "6798c9a4135da6a5cca6f66e5c83b2de95bc1f411343b590c3f56261bce9bea0",
+      "seqno": 1501883
+    },
+    "service": {
+      "hostname": "cgeosoft.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507155556,
+  "expire_in": 504576000,
+  "prev": "559253be0c0d977ed9b14a556e3560db0919cc472cd174f2cc516401dbbe5939",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDvnlujyLqpLZ9w5zLlhcwowT9c9zYVCvUbmSiPRlx2YKp3BheWxvYWTFA0R7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNDk0Yjc1OWNlN2NiNmY4ZWZlYTcwOTAyZmEyMTJhZGI1ZTFiOTE1NWMzNzhjNWZkYjc0ZjIyZGZkMDJhNzhiODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMGVmOWU1YmEzYzhiYWE5MmQ5ZjcwZTczMmU1ODVjYzI4YzEzZjVjZjczNjE1MGFmNTFiOTkyODhmNDY1Yzc2NjBhIiwidWlkIjoiNzg3MzRkOGU5YWRiYzZkNTBmODEzZDg2MTAzOWY1MTkiLCJ1c2VybmFtZSI6Imdlb3JnaW91In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA3MTU1NTI0LCJoYXNoIjoiZTcyODNhNjM2Y2UzZGRhNjdlYTc1NGJkNjFjNDE5ZDYzODFjNTk5MGMwN2I0YzM4ZDdlMzIxZGI3NDM4ODQ3MDkyZDdjNjRjNTBkMzQ4NTYxMTdiMmQ4NTcwOThjNGE4MWM1YmNmNTVjNTUxNDRiMmQ1N2FkYzdlZmYzM2FkZTQiLCJoYXNoX21ldGEiOiI2Nzk4YzlhNDEzNWRhNmE1Y2NhNmY2NmU1YzgzYjJkZTk1YmMxZjQxMTM0M2I1OTBjM2Y1NjI2MWJjZTliZWEwIiwic2Vxbm8iOjE1MDE4ODN9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiY2dlb3NvZnQuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zMyJ9LCJjdGltZSI6MTUwNzE1NTU1NiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI1NTkyNTNiZTBjMGQ5NzdlZDliMTRhNTU2ZTM1NjBkYjA5MTljYzQ3MmNkMTc0ZjJjYzUxNjQwMWRiYmU1OTM5Iiwic2Vxbm8iOjEyLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQCs3d8yXZN8bI3nw8O7lp1fDWM8vbyRWeUcgFk4vPgCAO2R0LWCrL3I2+4iMxiR0lHko71ht98mzILsAJRbGwgmoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBIDy3fWGDRJKDHBN57K4hfumL3EXisK9qyuj7t8L15MqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/georgiou
+
+==================================================================
