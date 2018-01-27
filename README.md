@@ -1,3 +1,3 @@
-# Κύβος Χρηματοοικονομικοί Σύμβουλοι - Website
+# cgeosoft - website
 
 Under construction
