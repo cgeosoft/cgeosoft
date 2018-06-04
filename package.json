@@ -8,7 +8,8 @@
     "url": "http://cgeosoft.com"
   },
   "dependencies": {
-    "gulp-cg-toolkit": "2.1.1",
-    "bootstrap": "^4.1.0"
+    "bootstrap": "^4.1.1",
+    "devicon": "git+https://git@github.com/konpa/devicon.git",
+    "gulp-cg-toolkit": "2.4.0"
   }
 }

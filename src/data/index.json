@@ -1,0 +1,85 @@
+{
+    "contacts": [{
+        "link": "mailto:georgiou.christos@outlook.com",
+        "label": "email",
+        "icon": "fas fa-envelope"
+    }, {
+        "link": "http://github.com/christosgeorgiou",
+        "label": "github",
+        "icon": "fab fa-github"
+    }, {
+        "link": "skype:christos.georgiou.?add",
+        "label": "skype",
+        "icon": "fab fa-skype"
+    }, {
+        "link": "http://gr.linkedin.com/in/christosgeorgiou2/",
+        "label": "linkedin",
+        "icon": "fab fa-linkedin"
+    }, {
+        "link": "http://twitter.com/chrisgeorgiou",
+        "label": "twitter",
+        "icon": "fab fa-twitter"
+    }, {
+        "link": "http://facebook.com/christosgeorgiou",
+        "label": "facebook",
+        "icon": "fab fa-facebook"
+    }],
+    "technologies": [{
+        "icon": "javascript-plain",
+        "label": "Javascript",
+        "percent": 91
+    }, {
+        "icon": "bootstrap-plain",
+        "label": "Bootstrap 4",
+        "percent": 90
+    }, {
+        "icon": "ionic-original-wordmark",
+        "label": "Ionic 3+",
+        "percent": 88
+    }, {
+        "icon": "angularjs-plain",
+        "label": "Angular 2+",
+        "percent": 86
+    }, {
+        "icon": "sass-plain",
+        "label": "Scss",
+        "percent": 85
+    }, {
+        "icon": "dot-net-plain",
+        "label": ".NET / C#",
+        "percent": 80
+    }, {
+        "icon": "typescript-plain",
+        "label": "TypeScript",
+        "percent": 73
+    }, {
+        "icon": "dot-net-plain",
+        "label": "MSSQL",
+        "percent": 55
+    }, {
+        "icon": "couchdb-plain",
+        "label": "CouchDB",
+        "percent": 40
+    }, {
+        "icon": "nodejs-plain",
+        "label": "NodeJS",
+        "percent": 32
+    }],
+    "websites": [{
+        "label": "anemflia",
+        "img": "/images/anemflia.cgeosoft.com.png",
+        "url": "https://anemflia.cgeosoft.com"
+    },{
+        "label": "optikanewlook",
+        "img": "/images/optikanewlook.png",
+        "url": "https://optikanewlook.gr"
+    },{
+        "label": "biamak",
+        "img": "/images/biamak.png",
+        "url": "http://biamak.gr"
+    },{
+        "label": "fiorabikes",
+        "img": "/images/fiorabikes.png",
+        "url": "https://fiorabikes.gr"
+    }]
+}

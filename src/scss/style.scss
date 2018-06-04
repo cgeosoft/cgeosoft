@@ -1,80 +1,115 @@
 @import "./node_modules/bootstrap/scss/bootstrap";
-@mixin divider() {
-    padding: 0 0 .5rem 0;
-    margin: .5rem 0;
-    border-bottom: solid 1px #EEE;
+.container {
+    @extend .my-4;
+    max-width: 550px;
+    .fas {
+        @extend .text-secondary;
+        font-size: 1rem;
+    }
 }
 
-body {
-    background: #f6f6f6;
+.container-fluid {
+    @extend .my-4;
+    .fas {
+        @extend .text-secondary;
+        font-size: 1rem;
+    }
 }
 
-.content-main {
-    width: 377px
-}
-
-.content-blog {
-    width: 720px;
+section {
+    h4 {
+        @extend .mt-3;
+        @extend .mb-2;
+        .fas {
+            @extend .text-secondary;
+            font-size: 1rem;
+        }
+    }
 }
 
 .header {
-    @include divider();
-    .img-avatar {
-        width: 133px;
-        height: 133px;
-    }
-    .title-name {
+    h1 {
+        @extend .display-4;
         font-size: 2rem;
+        @extend .mb-1;
+    }
+    h2 {
+        @extend .lead;
+        @extend .mb-4;
+        @extend .text-secondary;
     }
 }
 
-.technologies {
-    @include divider();
+.hacking {
+    .hacking-item {
+        @extend .mb-2;
+        .icon {
+            @extend .mt-1;
+            @extend .mr-1;
+        }
+        .progress {
+            @extend .bg-secondary;
+            @extend .mb-1;
+            height: 2px;
+            .progress-bar {
+                background: #BBB;
+            }
+        }
+    }
 }
 
 .bio {
-    @include divider();
+    @extend .text-white;
+    @extend .text-white;
     font-size: .8rem;
-    color: #444;
-    text-align: left;
-    P {
-        &:last-child {
-            margin: 0;
+}
+
+.contacts {
+    @extend .list-inline;
+    @extend .text-center;
+    @extend .pt-1;
+    .btn {
+        @extend .btn-outline-secondary; // @extend .text-secondary;
+        @extend .py-0;
+        @extend .px-1;
+    }
+}
+
+.websites {
+    .website-list {
+        @extend .d-flex;
+        @extend .flex-wrap;
+        .website-item {
+            @extend .w-25;
+            @extend .p-1;
+            a {
+                @extend .card;
+                @extend .text-center;
+                @extend .bg-dark;
+                @extend .border-secondary;
+                text-decoration: none;
+                img {
+                    @extend .img-fluid;
+                }
+                span {
+                    @extend .p-2;
+                    @extend .card-body;
+                    @extend .text-white;
+                    font-size: .8rem;
+                }
+            }
         }
     }
 }
 
-.facts {
-    @include divider();
-    font-weight: 300;
-    h3 {
-        font-weight: inherit;
-        font-size: 1.3rem;
-    }
-    p {
-        font-size: 1rem;
-        padding: 0 2rem;
-        margin: 0;
-        line-height: 48px;
-        height: 48px;
-        span {
-            display: inline-block;
-            line-height: 1.3rem;
-        }
-    }
-}
-
-.subpages {
-    @include divider();
-    padding: .5rem 0 1rem;
-}
-
-.footer {
-    font-size: 0.7em;
-    margin-top: -10px;
-    text-align: center;
-    color: #ccc;
-    a {
-        color: #999;
+.likes {
+    @extend .d-flex;
+    @extend .flex-wrap;
+    @extend .justify-content-center;
+    .card {
+        @extend .bg-dark;
+        @extend .border-secondary;
+        @extend .m-2;
+        width:550px;
     }
 }
