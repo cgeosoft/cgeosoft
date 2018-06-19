@@ -28,6 +28,15 @@ section {
 }
 
 .header {
+    @extend .d-flex;
+    img {
+        @extend .rounded;
+        @extend .border;
+        @extend .border-secondary;
+        @extend .mr-3;
+        width: 70px;
+        height: 70px;
+    }
     h1 {
         @extend .display-4;
         font-size: 2rem;
@@ -110,6 +119,6 @@ section {
         @extend .bg-dark;
         @extend .border-secondary;
         @extend .m-2;
-        width:550px;
+        width: 550px;
     }
 }

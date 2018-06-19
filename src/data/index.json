@@ -20,6 +20,10 @@
         "label": "twitter",
         "icon": "fab fa-twitter"
     }, {
+        "link": "https://keybase.io/georgiou",
+        "label": "keybase",
+        "icon": "fab fa-keybase"
+    }, {
         "link": "http://facebook.com/christosgeorgiou",
         "label": "facebook",
         "icon": "fab fa-facebook"
