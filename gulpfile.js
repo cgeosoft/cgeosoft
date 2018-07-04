@@ -5,9 +5,9 @@ require('gulp-cg-toolkit')(gulp, {
     destination: './dist/'
   }, {
     source: './node_modules/devicon/devicon.min.css',
-    destination: './dist/'
+    destination: './dist/devicon/'
   }, {
     source: './node_modules/devicon/fonts/**/*.*',
-    destination: './dist/fonts/'
+    destination: './dist/devicon/fonts/'
   }]
 })
