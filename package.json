@@ -10,6 +10,6 @@
   "dependencies": {
     "bootstrap": "^4.1.1",
     "devicon": "git+https://git@github.com/konpa/devicon.git",
-    "gulp-cg-toolkit": "2.4.0"
+    "gulp-cg-toolkit": "3.0.2"
   }
 }
