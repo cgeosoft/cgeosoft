@@ -1,5 +1,5 @@
 {
-  "name": "website-cgeosoft",
+  "name": "cgeosoft",
   "version": "0.0.0",
   "description": "cgeosoft.com",
   "author": {
@@ -8,8 +8,11 @@
     "url": "http://cgeosoft.com"
   },
   "dependencies": {
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.3.1",
     "devicon": "git+https://git@github.com/konpa/devicon.git",
-    "gulp-cg-toolkit": "3.0.2"
+    "gulp-cg-toolkit": "4.0.1"
+  },
+  "scripts": {
+    "build": "gulp build"
   }
 }
