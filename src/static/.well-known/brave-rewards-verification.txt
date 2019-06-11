@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cgeosoft.com 
+Token: 24afb9e3f8df2c2d3cbf56cdbac098b9065ed35cce836b4f91d227e74ac62830

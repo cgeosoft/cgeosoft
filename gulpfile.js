@@ -1,4 +1,6 @@
 const gulp = require('gulp')
+const zip = require('gulp-zip');
+
 require('gulp-cg-toolkit')(gulp, {
   files: [{
     source: './src/static/**/*.*',
@@ -11,3 +13,9 @@ require('gulp-cg-toolkit')(gulp, {
     destination: './dist/devicon/fonts/'
   }]
 })
+ 
+gulp.task('archive', () =>
+    gulp.src('./dist/*')
+        .pipe(zip('release.zip'))
+        .pipe(gulp.dest('dist'))
+);

@@ -1,2 +1,79 @@
+<link rel="stylesheet" type="text/css"
+    href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+    window.addEventListener("load", function () {
+        tracker = Piwik.getTracker()
+        console.log(tracker)
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#3d3d3d"
+                },
+                "button": {
+                    "background": "#adadad"
+                }
+            },
+            "theme": "edgeless",
+            "position": "bottom-left",
+            "type": "opt-in",
+            "content": {
+                "href": "/cookies.html"
+            },
+            onInitialise: function (status) {
+                var type = this.options.type;
+                var didConsent = this.hasConsented();
+                if (type == 'opt-in' && didConsent) {
+                    // enable cookies
+                    //tracker.enableCookies()
+                }
+                if (type == 'opt-out' && !didConsent) {
+                    // disable cookies
+                    tracker.disableCookies()
+                }
+            },
+
+            onStatusChange: function (status, chosenBefore) {
+                var type = this.options.type;
+                var didConsent = this.hasConsented();
+                if (type == 'opt-in' && didConsent) {
+                    // enable cookies
+                    // tracker.enableCookies()
+                }
+                if (type == 'opt-out' && !didConsent) {
+                    // disable cookies
+                    tracker.disableCookies()
+                }
+            },
+
+            onRevokeChoice: function () {
+                var type = this.options.type;
+                if (type == 'opt-in') {
+                    // disable cookies
+                    tracker.disableCookies()
+                }
+                if (type == 'opt-out') {
+                    // enable cookies
+                    // tracker.enableCookies()
+                }
+            },
+        })
+    });
+</script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = '//embed.tawk.to/5c7183513341d22d9ce5c69d/default';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
 </body>
+
 </html>
