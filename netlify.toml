@@ -1,0 +1,7 @@
+[build]
+  publish = "dist/"
+  command = "gulp build"
+# A basic redirect rule
+[[redirects]]
+  from = "/.well-known/*"
+  to = "/well-known/:splat"
