@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css"
+    href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+    window.addEventListener("load", function () {
+
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#3d3d3d"
+                },
+                "button": {
+                    "background": "#adadad"
+                }
+            },
+            "theme": "edgeless",
+            "position": "bottom-left",
+            "type": "opt-in",
+            "content": {
+                "href": "/cookies.html"
+            },
+            onInitialise: function (status) {
+                var type = this.options.type;
+                var didConsent = this.hasConsented();
+                if (type == 'opt-in' && didConsent) {
+                    woopra.config({
+                        domain: 'cgeosoft.com'
+                    });
+                    woopra.track();
+                }
+                if (type == 'opt-out' && !didConsent) {
+                }
+            },
+
+            onStatusChange: function (status, chosenBefore) {
+                var type = this.options.type;
+                var didConsent = this.hasConsented();
+                if (type == 'opt-in' && didConsent) {
+                    woopra.config({
+                        domain: 'cgeosoft.com'
+                    });
+                    woopra.track();
+                }
+                if (type == 'opt-out' && !didConsent) {
+                }
+            },
+
+            onRevokeChoice: function () {
+                var type = this.options.type;
+                if (type == 'opt-in') {
+                }
+                if (type == 'opt-out') {
+                    woopra.config({
+                        domain: 'cgeosoft.com'
+                    });
+                    woopra.track();
+                }
+            },
+        })
+    });
+</script>
