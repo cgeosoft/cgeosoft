@@ -1,0 +1,75 @@
+{{>_start}}
+<div class='container'>
+	<section class="header">
+		<img src='https://en.gravatar.com/userimage/150690332/c5b56dacc285042c86d08ba6c8940b38.jpg?size=200'>
+		<div>
+			<h1>Christos Georgiou
+				<span class="fas fa-bug"></span>
+			</h1>
+			<h2>Software Engineer</h2>
+		</div>
+	</section>
+	<div class="row">
+		<div class="col-md-5">
+			<section class="bio">
+				<h4>Me
+					<span class="fas fa-user-circle"></span>
+				</h4>
+				<p>
+					Hi! I'm Chris. A living entity of the "human" species on Earth, third planet from the Sun, in the Milky way galaxy.
+				</p>
+				<p>
+					My restless personality, which began forging about 30 earth years ago in Athens, Greece, eventually turned me into a Software
+					Engineer.
+				</p>
+				<p>
+					Blurring the lines between working and making art, I'm currently a proud member of the
+					<a href="https://echofin.co">echofin</a> team.</p>
+			</section>
+			<section class="contacts">
+				{{#each contacts}}
+				<a class="btn border-0" href="{{link}}" title="{{label}}">
+					<span class="{{icon}}"></span>
+				</a>
+				{{/each}}
+			</section>
+		</div>
+		<div class="col-md-7">
+			<section class="hacking">
+				<h4>Hacking
+					<span class="fas fa-code"></span>
+				</h4>
+				{{#each technologies}}
+				<div class="hacking-item">
+					<div class="d-flex px-1">
+						<span class="icon devicon-{{icon}} colored"></span>
+						<span>{{label}}</span>
+						<span class="ml-auto text-secondary">{{percent}}%</span>
+					</div>
+					<div class="progress">
+						<div class="progress-bar" style="width: {{percent}}%"></div>
+					</div>
+				</div>
+				{{/each}}
+			</section>
+
+		</div>
+	</div>
+	{{!--
+	<section class="websites">
+		<h4>Websites
+			<span class="fas fa-globe"></span>
+		</h4>
+		<div class="website-list">
+			{{#each websites}}
+			<div class="website-item">
+				<a target="_blank" href="{{url}}">
+					<img src="{{img}}" alt="Image of {{label}}">
+					<span>{{label}}</span>
+				</a>
+			</div>
+			{{/each}}
+		</div>
+	</section> --}}
+</div>
+{{>_end}}
