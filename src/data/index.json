@@ -2,7 +2,7 @@
     "contacts": [{
         "link": "mailto:georgiou.christos@outlook.com",
         "label": "email",
-        "icon": "fas fa-envelope"
+        "icon": "far fa-envelope"
     }, {
         "link": "http://github.com/christosgeorgiou",
         "label": "github",

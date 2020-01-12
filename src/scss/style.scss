@@ -4,6 +4,11 @@ body {
   background: #222;
   color: #eee;
 }
+
+.img-logo {
+  width: 230px;
+}
+
 .container {
   @extend .my-4;
   max-width: 550px;

@@ -8,15 +8,15 @@
     "url": "http://cgeosoft.com"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "devicon": "git+https://git@github.com/konpa/devicon.git",
-    "gulp-cg-toolkit": "4.0.1"
+    "gulp-cg-toolkit": "4.1.0"
   },
   "scripts": {
     "build": "gulp build",
     "archive": "gulp archive"
   },
   "devDependencies": {
-    "gulp-zip": "^4.2.0"
+    "gulp-zip": "^5.0.1"
   }
 }
