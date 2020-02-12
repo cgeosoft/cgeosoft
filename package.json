@@ -10,7 +10,8 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "devicon": "git+https://git@github.com/konpa/devicon.git",
-    "gulp-cg-toolkit": "4.1.0"
+    "gulp-cg-toolkit": "4.1.0",
+    "gulp-zip": "^5.0.1"
   },
   "scripts": {
     "start": "gulp",
@@ -20,8 +21,5 @@
   },
   "engines": {
     "node": "12.x"
-  },
-  "devDependencies": {
-    "gulp-zip": "^5.0.1"
   }
 }
