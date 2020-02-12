@@ -13,6 +13,7 @@
     "gulp-cg-toolkit": "4.1.0"
   },
   "scripts": {
+    "start": "gulp",
     "build": "gulp build",
     "heroku:production": "gulp build",
     "archive": "gulp archive"
