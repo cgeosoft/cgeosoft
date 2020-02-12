@@ -19,3 +19,5 @@ gulp.task('archive', () =>
         .pipe(zip('release.zip'))
         .pipe(gulp.dest('dist'))
 );
+
+gulp.task('heroku:production', ['build']);
