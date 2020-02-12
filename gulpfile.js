@@ -20,4 +20,4 @@ gulp.task('archive', () =>
         .pipe(gulp.dest('dist'))
 );
 
-gulp.task('heroku:production', gulp.task("build"));
+gulp.task('heroku', gulp.task("build"));
