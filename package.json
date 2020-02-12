@@ -16,6 +16,9 @@
     "build": "gulp build",
     "archive": "gulp archive"
   },
+  "engines": {
+    "node": "12.x"
+  }
   "devDependencies": {
     "gulp-zip": "^5.0.1"
   }
