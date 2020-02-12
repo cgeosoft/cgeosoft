@@ -16,7 +16,6 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
-    "heroku:production": "gulp build",
     "archive": "gulp archive"
   },
   "engines": {
