@@ -2,15 +2,20 @@
     href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <script>
-    function enableTrakers() {
-        woopra.config({
-            domain: 'cgeosoft.com'
-        });
-        woopra.track();
-        window.enableCrisp()
+    
+    function handleConsent(status) {
+        var type = this.options.type;
+        var didConsent = this.hasConsented();
+        if (type == 'opt-in' && didConsent) {
+            woopra.config({
+                domain: 'cgeosoft.com'
+            });
+            woopra.track();
+            window.enableCrisp()
+        }
     }
 
-    window.addEventListener("load", function () {
+    function load() {
 
         window.cookieconsent.initialise({
             "palette": {
@@ -27,33 +32,10 @@
             "content": {
                 "href": "/cookies.html"
             },
-            onInitialise: function (status) {
-                var type = this.options.type;
-                var didConsent = this.hasConsented();
-                if (type == 'opt-in' && didConsent) {
-                    enableTrakers()
-                }
-                if (type == 'opt-out' && !didConsent) {
-                }
-            },
-
-            onStatusChange: function (status, chosenBefore) {
-                var type = this.options.type;
-                var didConsent = this.hasConsented();
-                if (type == 'opt-in' && didConsent) {
-                    enableTrakers()
-                }
-                if (type == 'opt-out' && !didConsent) {
-                }
-            },
-
-            onRevokeChoice: function () {
-                var type = this.options.type;
-                if (type == 'opt-in') {
-                }
-                if (type == 'opt-out') {
-                }
-            },
+            onInitialise: handleConsent,
+            onStatusChange: handleConsent
         })
-    });
+    }
+
+    window.addEventListener("load", load);
 </script>
