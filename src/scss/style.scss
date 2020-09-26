@@ -1,3 +1,5 @@
+$dark: #222222;
+
 @import "./node_modules/bootstrap/scss/bootstrap";
 
 html,
@@ -5,7 +7,7 @@ body {
   height: 100%;
 }
 
-.box{
+.box {
   max-width: 250px;
 }
 

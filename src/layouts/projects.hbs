@@ -1,0 +1,39 @@
+{{>_start}}
+<div class="container p-4">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+      <a href="/" class="btn btn-secondary btn-sm mb-2">
+        <span class="fas fa-long-arrow-alt-left"></span>
+        home</a>
+      <h1 class="display-1">{{title}}</h1>
+      <hr>
+      {{#each projects}}
+      <div class="mt-5">
+        <h2 class="mb-3">
+          <span class="fas fa-{{icon}} fa-fw text-secondary"></span>
+          {{category}}
+        </h2>
+        <div class="row row-cols-1 row-cols-md-2 g-2 ml-5">
+          {{#each items}}
+          <div class="mb-2">
+            <h4>
+              {{title}}
+              {{#if link}}
+              <a href="{{link}}" target="_blank">
+                <span class="fas fa-external-link-alt"></span>
+              </a>
+              {{/if}}
+            </h4>
+            <p>{{description}}</p>
+            <div>
+              <span class="badge bg-secondary">{{value}}%</span>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
+{{>_end}}
