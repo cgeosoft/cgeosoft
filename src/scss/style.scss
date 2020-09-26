@@ -1,86 +1,12 @@
 @import "./node_modules/bootstrap/scss/bootstrap";
 
+html,
 body {
-  background: #222;
-  color: #eee;
+  height: 100%;
 }
 
-.img-logo {
-  width: 230px;
-}
-
-.container {
-  @extend .my-4;
-  max-width: 550px;
-  .fas {
-    @extend .text-secondary;
-    font-size: 1rem;
-  }
-}
-
-.container-fluid {
-  @extend .my-4;
-  .fas {
-    @extend .text-secondary;
-    font-size: 1rem;
-  }
-}
-
-section {
-  h4 {
-    @extend .mt-3;
-    @extend .mb-2;
-    .fas {
-      @extend .text-secondary;
-      font-size: 1rem;
-    }
-  }
-}
-
-.header {
-  @extend .d-flex;
-  img {
-    @extend .rounded;
-    @extend .border;
-    @extend .border-secondary;
-    @extend .mr-3;
-    width: 70px;
-    height: 70px;
-  }
-  h1 {
-    @extend .display-4;
-    font-size: 2rem;
-    @extend .mb-1;
-  }
-  h2 {
-    @extend .lead;
-    @extend .mb-4;
-    @extend .text-secondary;
-  }
-}
-
-.hacking {
-  .hacking-item {
-    @extend .mb-2;
-    .icon {
-      @extend .mt-1;
-      @extend .mr-1;
-    }
-    .progress {
-      @extend .bg-secondary;
-      @extend .mb-1;
-      height: 2px;
-      .progress-bar {
-        background: #bbb;
-      }
-    }
-  }
-}
-
-.bio {
-  @extend .text-white;
-  @extend .text-white;
-  font-size: 0.8rem;
+.box{
+  max-width: 250px;
 }
 
 .contacts {
@@ -88,47 +14,8 @@ section {
   @extend .text-center;
   @extend .pt-1;
   .btn {
-    @extend .btn-outline-secondary; // @extend .text-secondary;
+    @extend .btn-outline-secondary;
     @extend .py-0;
     @extend .px-1;
-  }
-}
-
-.websites {
-  .website-list {
-    @extend .d-flex;
-    @extend .flex-wrap;
-    .website-item {
-      @extend .w-25;
-      @extend .p-1;
-      a {
-        @extend .card;
-        @extend .text-center;
-        @extend .bg-dark;
-        @extend .border-secondary;
-        text-decoration: none;
-        img {
-          @extend .img-fluid;
-        }
-        span {
-          @extend .p-2;
-          @extend .card-body;
-          @extend .text-white;
-          font-size: 0.8rem;
-        }
-      }
-    }
-  }
-}
-
-.likes {
-  @extend .d-flex;
-  @extend .flex-wrap;
-  @extend .justify-content-center;
-  .card {
-    @extend .bg-dark;
-    @extend .border-secondary;
-    @extend .m-2;
-    width: 550px;
   }
 }

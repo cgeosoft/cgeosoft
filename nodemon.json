@@ -1,0 +1,14 @@
+{
+    "ignore": [
+        "**/*.test.ts",
+        "**/*.spec.ts",
+        ".git",
+        "node_modules"
+    ],
+    "watch": [
+        "src/",
+        "build.js"
+    ],
+    "exec": "npm run build",
+    "ext": "js,md,html,hbs,scss"
+}

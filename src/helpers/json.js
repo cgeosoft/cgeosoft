@@ -1,3 +1,3 @@
-module.exports  = function (context) {
-  return JSON.stringify(context, "", 2);
-};
+module.exports = function(content){
+    console.log(content)
+}

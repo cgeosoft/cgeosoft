@@ -1,0 +1,14 @@
+{{>_start}}
+<div class="d-flex align-items-center justify-content-center mt-4 h-100">
+  <div class="box">
+    <img class="img-logo img-fluid p-4" src="/images/logo_light.png" alt="">
+    <div class="contacts">
+      {{#each contacts}}
+      <a class="btn border-0" href="{{link}}" title="{{label}}">
+        <span class="{{icon}}"></span>
+      </a>
+      {{/each}}
+    </div>
+  </div>
+</div>
+{{>_end}}
