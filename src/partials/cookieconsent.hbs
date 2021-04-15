@@ -7,10 +7,6 @@
         var type = this.options.type;
         var didConsent = this.hasConsented();
         if (type == 'opt-in' && didConsent) {
-            woopra.config({
-                domain: 'cgeosoft.com'
-            });
-            woopra.track();
             window.enableCrisp()
         }
     }
