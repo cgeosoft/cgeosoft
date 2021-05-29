@@ -2,26 +2,23 @@
 title: home
 layout: index.hbs
 contacts:
-- link: mailto:georgiou.christos@outlook.com
-  label: email
-  icon: far fa-envelope
-- link: http://github.com/christosgeorgiou
-  label: github
+- label: email
+  link: mailto:christos@cgeosoft.com
+  icon: fas fa-envelope
+- label: github
+  link: http://github.com/christosgeorgiou
   icon: fab fa-github
-- link: skype:christos.georgiou.?add
-  label: skype
+- label: skype
+  link: skype:christos.georgiou.?add
   icon: fab fa-skype
-- link: http://gr.linkedin.com/in/christosgeorgiou2/
-  label: linkedin
+- label: linkedin
+  link: http://gr.linkedin.com/in/christosgeorgiou2/
   icon: fab fa-linkedin
-- link: http://twitter.com/chrisgeorgiou
-  label: twitter
+- label: twitter
+  link: http://twitter.com/chrisgeorgiou
   icon: fab fa-twitter
-- link: https://keybase.io/georgiou
-  label: keybase
-  icon: fab fa-keybase
-- link: http://facebook.com/christosgeorgiou
-  label: facebook
+- label: facebook
+  link: http://facebook.com/christosgeorgiou
   icon: fab fa-facebook
 technologies:
 - icon: javascript-plain

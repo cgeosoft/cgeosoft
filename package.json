@@ -15,8 +15,8 @@
     "build:watch": "nodemon"
   },
   "dependencies": {
-    "bootstrap": "^5.0.0-alpha1",
-    "dateformat": "^3.0.3",
+    "bootstrap": "^5.0.1",
+    "dateformat": "^4.5.1",
     "handlebars-helpers": "^0.10.0",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
@@ -27,7 +27,7 @@
     "metalsmith-discover-partials": "^0.1.2",
     "metalsmith-layouts": "^2.3.1",
     "metalsmith-markdown": "^1.3.0",
-    "metalsmith-move-up": "^2.0.1",
+    "metalsmith-move-up": "^3.0.0",
     "metalsmith-permalinks": "^2.2.0",
     "metalsmith-register-helpers": "^0.4.1",
     "metalsmith-sass": "^1.7.0",
@@ -36,6 +36,6 @@
   },
   "devDependencies": {
     "http-server": "^0.12.3",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.7"
   }
 }
