@@ -1,13 +1,13 @@
 {
-  "name": "cgeosoft",
+  "name": "cgeosoft.com",
   "description": "cgeosoft.com",
   "version": "0.1.0",
+  "private": true,
   "author": {
     "name": "Christos Georgiou",
     "email": "christos@cgeosoft.com",
     "url": "http://cgeosoft.com"
   },
-  "private": true,
   "scripts": {
     "start": "run-p build:watch serve",
     "serve": "http-server ./dist",
