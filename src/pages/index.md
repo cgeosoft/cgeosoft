@@ -6,7 +6,7 @@ contacts:
   link: mailto:christos@cgeosoft.com
   icon: fas fa-envelope
 - label: github
-  link: http://github.com/christosgeorgiou
+  link: http://github.com/cgeosoft
   icon: fab fa-github
 - label: skype
   link: skype:christos.georgiou.?add
