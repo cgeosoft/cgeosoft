@@ -1,7 +1,22 @@
 {{>_start}}
-<div class="d-flex align-items-center justify-content-center h-100">
-  <div class="box">
-    <img class="img-logo img-fluid p-4" src="/images/logo_light.png" alt="">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header>
+    <h3 class="float-md-start mb-0">cgeosoft</h3>
+    <nav class="nav nav-masthead justify-content-center float-md-end">
+      <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <a class="nav-link" href="#">Features</a>
+      <a class="nav-link" href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main class="mt-auto mb-auto">
+    <div class="box">
+      <img class="img-logo img-fluid p-4" src="/images/logo_light.png" alt="">
+      <h2>Software Consulting</h2>
+      <p class="lead">Book a meeting now and get premium consulting for your next small or big project</p>
+      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Book Now</a>
+    </div>
+
     <div class="contacts">
       {{#each contacts}}
       <a class="btn border-0" href="{{link}}" title="{{label}}">
@@ -9,6 +24,6 @@
       </a>
       {{/each}}
     </div>
-  </div>
+  </main>
 </div>
 {{>_end}}

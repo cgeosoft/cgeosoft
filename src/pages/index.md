@@ -17,9 +17,6 @@ contacts:
 - label: twitter
   link: http://twitter.com/chrisgeorgiou
   icon: fab fa-twitter
-- label: facebook
-  link: http://facebook.com/christosgeorgiou
-  icon: fab fa-facebook
 technologies:
 - icon: javascript-plain
   label: Javascript

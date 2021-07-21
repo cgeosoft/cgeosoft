@@ -15,7 +15,6 @@
     "build:watch": "nodemon"
   },
   "dependencies": {
-    "bootstrap": "^5.0.1",
     "dateformat": "^4.5.1",
     "handlebars-helpers": "^0.10.0",
     "jstransformer-handlebars": "^1.1.0",
